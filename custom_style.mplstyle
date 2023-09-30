@@ -1,0 +1,15 @@
+# Custom style for plots
+lines.linewidth: 2
+axes.titlesize: 14
+axes.labelsize: 12
+xtick.labelsize: 10
+ytick.labelsize: 10
+legend.fontsize: 10
+axes.grid: True
+axes.grid.axis: y
+axes.axisbelow: True
+grid.color: 'lightgray'
+grid.linestyle: -
+
+# Define default colors
+axes.prop_cycle: cycler('color', ['skyblue', 'lightcoral', 'lightgreen', 'lightsalmon', 'lightseagreen'])
